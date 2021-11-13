@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT)
 
 admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
+    credential: admin.credential.cert(serviceAccoun)
 });
 
 // middleware
